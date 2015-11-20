@@ -1,0 +1,29 @@
+Partlist exported from /home/yyh/Downloads/LoNet/LoNet800L.sch at 11/20/15 9:32 AM
+
+Part Value      Device                    Package             Description                           PROD_ID   
+C1   470uF      CAP-AVX-D                 AVX-D                                                               
+C3   33pF       C-0603                    C0603                                                               
+C4   10pF       C-0603                    C0603                                                               
+C8   100uF      CAP-AVX-A                 AVX-A                                                               
+D1   1N4148     DIODESOD-323F             SOD-323F            Diode                                           
+D2   1N4148     DIODESOD-323F             SOD-323F            Diode                                           
+D3   RED        LED-0603                  0603                                                                
+D4   GREEN      LED-0603                  0603                                                                
+D5   ESDA6V1SC5 D-ESD-ESDA6V1SC5-SOT23-5L SOT23-5L            Quad Transil array for ESD protection           
+D7   PZ3D4V2H   DIODESOD-323F             SOD-323F            Diode                                           
+J3              SIMHOLDERSIM              SIMHOLDER           SIM Socket                            CONN-08536
+J5              ANTENNA-U-FL'3PAD-TYPE'   3P-U-FL                                                             
+J6              HEADER-8P-2.54            8P-2.54                                                             
+K1   3.3X3.3MM  BUTTON-4P-3.3X3.3         4P-SMD-3.4X3.4X1.3H                                                 
+Q4   BC846BW    TRANSISTOR-NPN-SOT323     SOT323              NPN audion                                      
+Q5   BC846BW    TRANSISTOR-NPN-SOT323     SOT323              NPN audion                                      
+R1   10K        R-0603                    0603                                                                
+R2   47K        R-0603                    0603                                                                
+R3   100        R-0603                    0603                                                                
+R6   100        R-0603                    0603                                                                
+R11  4.7K       R-0603                    0603                                                                
+R12  4.7K       R-0603                    0603                                                                
+R13  4.7K       R-0603                    0603                                                                
+R14  4.7K       R-0603                    0603                                                                
+R15  47K        R-0603                    0603                                                                
+U1   SIM800L    SIM800L                   88P-17.8X15.8X2.4                                                   
