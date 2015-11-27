@@ -1,0 +1,10 @@
+"Part";"Value";"Device";"Package";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"PROD_ID";
+"C1";"0.1µ";"C-EUC0603K";"C0603K";"CAPACITOR, European symbol";"";"";"";"";"";
+"C2";"1µ";"C-EUC0603K";"C0603K";"CAPACITOR, European symbol";"";"";"";"";"";
+"C3";"10µ";"C-EUC0805K";"C0805K";"CAPACITOR, European symbol";"";"";"";"";"";
+"IC1";"TPS78233";"TPS77001";"SOT23-DBV";"ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS";"TEXAS INSTRUMENTS";"TPS77001DBVT";"8461554";"77C1171";"";
+"JP1";"";"M06LONGPADS";"1X06_LONGPADS";"Header 6";"";"";"";"";"";
+"JP2";"M10NO_SILK_PTH_FEMALE";"M10NO_SILK_PTH_FEMALE";"1X10_NO_SILK";"Header 10";"";"";"";"";"CONN-11563";
+"JP3";"M10NO_SILK_PTH_FEMALE";"M10NO_SILK_PTH_FEMALE";"1X10_NO_SILK";"Header 10";"";"";"";"";"CONN-11563";
+"SJ1";"SOLDERJUMPERTRACE";"SOLDERJUMPERTRACE";"SJ_2S-TRACE";"Solder Jumper";"";"";"";"";"";
+"U$3";"LPC824M201JDH20";"LPC824M201JDH20";"TSSOP20";"";"";"";"";"";"";
