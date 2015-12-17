@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4840,6 +4840,11 @@ by exp-project-lbr.ulp</description>
 <wire x1="848.36" y1="106.68" x2="838.2" y2="106.68" width="0.1524" layer="91"/>
 <label x="838.2" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO4/GCKL"/>
+<wire x1="1031.24" y1="205.74" x2="1018.54" y2="205.74" width="0.1524" layer="91"/>
+<label x="1018.54" y="205.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
@@ -4893,6 +4898,11 @@ by exp-project-lbr.ulp</description>
 <pinref part="U1" gate="G$1" pin="UART_RI"/>
 <wire x1="977.9" y1="212.09" x2="985.52" y2="212.09" width="0.1524" layer="91"/>
 <label x="985.52" y="212.09" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO18"/>
+<wire x1="1079.5" y1="200.66" x2="1089.66" y2="200.66" width="0.1524" layer="91"/>
+<label x="1082.04" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ANT" class="0">
@@ -5125,6 +5135,11 @@ by exp-project-lbr.ulp</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <label x="838.2" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO17/GEN0"/>
+<wire x1="1031.24" y1="200.66" x2="1018.54" y2="200.66" width="0.1524" layer="91"/>
+<label x="1018.54" y="200.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VIO" class="0">
 <segment>
@@ -5232,12 +5247,22 @@ by exp-project-lbr.ulp</description>
 <wire x1="1066.8" y1="118.11" x2="1078.23" y2="118.11" width="0.1524" layer="91"/>
 <label x="1078.23" y="118.11" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GEN4/GPIO23"/>
+<wire x1="1079.5" y1="195.58" x2="1092.2" y2="195.58" width="0.1524" layer="91"/>
+<label x="1079.5" y="195.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="R_DIO0" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="DIO0"/>
 <wire x1="1038.86" y1="102.87" x2="1019.81" y2="102.87" width="0.1524" layer="91"/>
 <label x="1019.81" y="102.87" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GEN/6GPIO25"/>
+<wire x1="1079.5" y1="187.96" x2="1092.2" y2="187.96" width="0.1524" layer="91"/>
+<label x="1079.5" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R_RESET" class="0">
@@ -5246,6 +5271,11 @@ by exp-project-lbr.ulp</description>
 <wire x1="1036.32" y1="118.11" x2="1019.81" y2="118.11" width="0.1524" layer="91"/>
 <label x="1019.81" y="118.11" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GEN5/GPIO24"/>
+<wire x1="1079.5" y1="193.04" x2="1092.2" y2="193.04" width="0.1524" layer="91"/>
+<label x="1079.5" y="193.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="R_NSS" class="0">
 <segment>
@@ -5253,12 +5283,22 @@ by exp-project-lbr.ulp</description>
 <wire x1="1038.86" y1="115.57" x2="1019.81" y2="115.57" width="0.1524" layer="91"/>
 <label x="1019.81" y="115.57" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="!CE0!/GPIO8"/>
+<wire x1="1079.5" y1="185.42" x2="1092.2" y2="185.42" width="0.1524" layer="91"/>
+<label x="1079.5" y="185.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="R_SCK" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="SCK"/>
 <wire x1="1038.86" y1="113.03" x2="1019.81" y2="113.03" width="0.1524" layer="91"/>
 <label x="1019.81" y="113.03" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO11/SCLK"/>
+<wire x1="1031.24" y1="185.42" x2="1018.54" y2="185.42" width="0.1524" layer="91"/>
+<label x="1018.54" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R_MISO" class="0">
