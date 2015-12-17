@@ -9645,7 +9645,7 @@ LEDS</text>
 <instance part="FID4" gate="G$1" x="251.46" y="15.24"/>
 <instance part="FID5" gate="G$1" x="251.46" y="10.16"/>
 <instance part="U$38" gate="G$1" x="350.52" y="78.74"/>
-<instance part="U$10" gate="G$1" x="431.8" y="152.4"/>
+<instance part="U$10" gate="G$1" x="347.98" y="172.72"/>
 </instances>
 <busses>
 </busses>
@@ -9802,8 +9802,17 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="GND@2"/>
-<wire x1="408.94" y1="152.4" x2="393.7" y2="152.4" width="0.1524" layer="91"/>
-<label x="393.7" y="152.4" size="1.778" layer="95"/>
+<wire x1="325.12" y1="172.72" x2="309.88" y2="172.72" width="0.1524" layer="91"/>
+<label x="309.88" y="172.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$38" gate="G$1" pin="GND"/>
+<wire x1="350.52" y1="66.04" x2="350.52" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="60.96" x2="373.38" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="60.96" x2="373.38" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$38" gate="G$1" pin="GND2"/>
+<wire x1="373.38" y1="73.66" x2="365.76" y2="73.66" width="0.1524" layer="91"/>
+<label x="373.38" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10021,8 +10030,8 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="3V3@1"/>
-<wire x1="408.94" y1="182.88" x2="398.78" y2="182.88" width="0.1524" layer="91"/>
-<label x="398.78" y="182.88" size="1.778" layer="95"/>
+<wire x1="325.12" y1="203.2" x2="314.96" y2="203.2" width="0.1524" layer="91"/>
+<label x="314.96" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GSM_ANT" class="0">
@@ -10201,8 +10210,8 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="TXD0/GPIO14"/>
-<wire x1="457.2" y1="175.26" x2="469.9" y2="175.26" width="0.1524" layer="91"/>
-<label x="459.74" y="175.26" size="1.778" layer="95"/>
+<wire x1="373.38" y1="195.58" x2="386.08" y2="195.58" width="0.1524" layer="91"/>
+<label x="375.92" y="195.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TXD_5V" class="0">
@@ -10215,8 +10224,8 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="RXD0/GPIO15"/>
-<wire x1="457.2" y1="172.72" x2="469.9" y2="172.72" width="0.1524" layer="91"/>
-<label x="459.74" y="172.72" size="1.778" layer="95"/>
+<wire x1="373.38" y1="193.04" x2="386.08" y2="193.04" width="0.1524" layer="91"/>
+<label x="375.92" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RI_5V" class="0">
@@ -10254,22 +10263,6 @@ LEDS</text>
 <label x="271.78" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND2" class="0">
-<segment>
-<pinref part="U$38" gate="G$1" pin="GND"/>
-<wire x1="350.52" y1="66.04" x2="350.52" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="60.96" x2="373.38" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="60.96" x2="373.38" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$38" gate="G$1" pin="GND2"/>
-<wire x1="373.38" y1="73.66" x2="365.76" y2="73.66" width="0.1524" layer="91"/>
-<label x="373.38" y="73.66" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$10" gate="G$1" pin="GND@8"/>
-<wire x1="457.2" y1="177.8" x2="469.9" y2="177.8" width="0.1524" layer="91"/>
-<label x="459.74" y="177.8" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="R_DIO2" class="0">
 <segment>
 <pinref part="U$38" gate="G$1" pin="DIO2"/>
@@ -10278,8 +10271,8 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="GEN4/GPIO23"/>
-<wire x1="457.2" y1="165.1" x2="469.9" y2="165.1" width="0.1524" layer="91"/>
-<label x="459.74" y="165.1" size="1.778" layer="95"/>
+<wire x1="373.38" y1="185.42" x2="386.08" y2="185.42" width="0.1524" layer="91"/>
+<label x="375.92" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R_RESET" class="0">
@@ -10290,8 +10283,8 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="GEN5/GPIO24"/>
-<wire x1="457.2" y1="162.56" x2="469.9" y2="162.56" width="0.1524" layer="91"/>
-<label x="459.74" y="162.56" size="1.778" layer="95"/>
+<wire x1="373.38" y1="182.88" x2="386.08" y2="182.88" width="0.1524" layer="91"/>
+<label x="375.92" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R_NSS" class="0">
@@ -10302,8 +10295,8 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="!CE0!/GPIO8"/>
-<wire x1="457.2" y1="154.94" x2="469.9" y2="154.94" width="0.1524" layer="91"/>
-<label x="459.74" y="154.94" size="1.778" layer="95"/>
+<wire x1="373.38" y1="175.26" x2="386.08" y2="175.26" width="0.1524" layer="91"/>
+<label x="375.92" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R_SCK" class="0">
@@ -10314,8 +10307,8 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="GPIO11/SCLK"/>
-<wire x1="408.94" y1="154.94" x2="393.7" y2="154.94" width="0.1524" layer="91"/>
-<label x="393.7" y="154.94" size="1.778" layer="95"/>
+<wire x1="325.12" y1="175.26" x2="309.88" y2="175.26" width="0.1524" layer="91"/>
+<label x="309.88" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R_MISO" class="0">
@@ -10326,8 +10319,8 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="GPIO9/MISO"/>
-<wire x1="408.94" y1="157.48" x2="393.7" y2="157.48" width="0.1524" layer="91"/>
-<label x="393.7" y="157.48" size="1.778" layer="95"/>
+<wire x1="325.12" y1="177.8" x2="309.88" y2="177.8" width="0.1524" layer="91"/>
+<label x="309.88" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R_MOSI" class="0">
@@ -10338,9 +10331,9 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="GPIO10/MOSI"/>
-<wire x1="408.94" y1="160.02" x2="393.7" y2="160.02" width="0.1524" layer="91"/>
-<label x="393.7" y="160.02" size="1.778" layer="95"/>
-<label x="393.7" y="160.02" size="1.778" layer="95"/>
+<wire x1="325.12" y1="180.34" x2="309.88" y2="180.34" width="0.1524" layer="91"/>
+<label x="309.88" y="180.34" size="1.778" layer="95"/>
+<label x="309.88" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="R_DIO0" class="0">
@@ -10351,8 +10344,8 @@ LEDS</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="GEN/6GPIO25"/>
-<wire x1="457.2" y1="157.48" x2="469.9" y2="157.48" width="0.1524" layer="91"/>
-<label x="459.74" y="157.48" size="1.778" layer="95"/>
+<wire x1="373.38" y1="177.8" x2="386.08" y2="177.8" width="0.1524" layer="91"/>
+<label x="375.92" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
